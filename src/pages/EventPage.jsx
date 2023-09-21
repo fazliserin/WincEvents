@@ -4,7 +4,7 @@ import { Text, Heading, Image, Tag, Box, IconButton } from "@chakra-ui/react";
 import { ArrowBackIcon, EditIcon, DeleteIcon } from "@chakra-ui/icons";
 import { useLoaderData, useNavigate } from "react-router-dom";
 import { useParams, Link } from "react-router-dom";
-import "../index.css";
+import "../style.css";
 import { useState, useRef } from "react";
 import AlertBox from "../components/AlertBox";
 import EditEventModal from "../components/EditEventModal";

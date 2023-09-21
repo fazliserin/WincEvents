@@ -8,7 +8,7 @@ import {
   AlertDialogOverlay,
   Button,
 } from "@chakra-ui/react";
-import "../index.css";
+import "../style.css";
 
 export default function AlertBox({ isOpen, onClose, handleDelete }) {
   const cancelRef = useRef();
